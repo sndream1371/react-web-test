@@ -7,7 +7,7 @@ const Content = () => {
   // return <div> ---Content --- </div>;
   return dummyData?.map((value, idx) => (
     <div key={idx} className="contentList">
-      <div> {value.id} </div>
+      <div className="contentId"> {value.id} </div>
       <div> {value.title} </div>
       <div> {value.completed.toString()} </div>
     </div>
